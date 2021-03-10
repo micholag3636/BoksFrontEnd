@@ -38,7 +38,7 @@ place-items: center;}
 .cartitem_deleteBtn:hover,
 .cartitem_deleteBtn:focus,
 .cartitem_deleteBtn:active{
-    background-color: #171717;
+    background-color: #e76f51;
     transform: scale(1.2)''
 
 

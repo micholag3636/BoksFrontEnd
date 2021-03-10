@@ -63,7 +63,7 @@ function CartScreen() {
                 <p>${getCartSubTotal().toFixed()}</p>
                 </div>
                 <div>
-                    <button>Proceed To Checkout</button>
+                    <button id="tocheckout">Proceed To Checkout</button>
                     </div>
               
                

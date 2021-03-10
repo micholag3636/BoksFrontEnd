@@ -42,16 +42,8 @@ function Nav({click}) {
 
 
              <div  id="aboutus">
-
-
                  <div className="dropdowns_wrapper">
-
-
                  <div className="nav_link">
-  
-         
-    
-
                 <button className="navbutabout" ><h3 className="droph3">About Us</h3></button>
                 <div className="dropdown-about" id="topdrop">
                     <Link to="/company" ><button className="dropdownb">Company</button></Link>
@@ -66,15 +58,8 @@ function Nav({click}) {
 
 
                 <div  id="aboutus">
-
                     <div className="dropdowns_wrapper" >
-  
-         
-                    
-
-
 <div className="nav_link">
-
   <button className="navbutabout"><h3 className="droph3">Contact Us</h3></button>
   <div className="dropdown-about" id="topdrop">
      <Link to="/offices"> <button className="dropdownb">Offices</button></Link>

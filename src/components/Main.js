@@ -221,7 +221,8 @@ loopedSlides = {4}
        
 
             {loading ? (
-                    <h1>Loading...</h1>
+                
+                    <div className="loader-box"><div class="loader"></div></div>
                 ): error ? (
                     <h2>{error}</h2>
                 ) : (

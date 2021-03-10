@@ -92,6 +92,13 @@
 
 }
 
+.box-pick{
+    border: 2px solid #e76f51;
+    border-radius: 3px;
+}
+
+
+
 .right_info p{
     padding: 1rem;
     font-size: 0.8rem;
@@ -104,9 +111,9 @@
     grid-column: 1/-1;
     width: 100%;
     padding: 10px 16px;
-    background-color: #171717;
+    background-color: #e76f51;
     color: white;
-    border: 1px solid #171717;
+    border: 1px solid #e76f51;
 
     
 

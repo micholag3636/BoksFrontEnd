@@ -25,7 +25,7 @@ function Store() {
             <h2 className="storetitle">All Products</h2>
             <div className="store_products">
                 {loading ? (
-                    <h1>Loading...</h1>
+                  <div className="loader-box"><div class="loader"></div></div>
                 ): error ? (
                     <h2>{error}</h2>
                 ) : (

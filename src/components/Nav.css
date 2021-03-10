@@ -1,6 +1,6 @@
 .Nav {
     
-    background-color: #131921;
+    background-color: #f4a261;
     height: 80px;
     width: 100%;
     display: flex;
@@ -141,7 +141,7 @@ h3{
 */
 
 .navbut{
-    background-color: #131921;
+    background-color: #f4a261;
     height: 30px;
     border: none;
     display: flex;
@@ -201,7 +201,7 @@ h3{
 
 
     
-    background-color:#131921;
+    background-color:#f4a261;
     min-width: 158px;
     z-index: 1;
     height: 120px;
@@ -270,7 +270,7 @@ h3{
 
 
 .navbutabout{
-    background-color: #131921;
+    background-color: #f4a261;
     height: 30px;
     border: none;
     display: block;
@@ -292,7 +292,7 @@ h3{
 
 }
 .droph3:hover{
-    background-color: #24303f;
+    background-color: #ee8959;
     border-radius: 5px;
     height: 30px;
     display: flex;
@@ -303,7 +303,7 @@ h3{
 
 }
 .droph3:active{
-       background-color: #24303f;
+       background-color: #ee8959;
     border-radius: 5px;
     height: 30px;
     display: flex;
@@ -321,7 +321,7 @@ h3{
 
 
 #droph3s:hover{
-    background-color: #24303f;
+    background-color: #ee8959;
     border-radius: 5px;
     height: 30px;
     display: flex;
@@ -344,7 +344,7 @@ h3{
 .dropdownb{
     height: 40px;
     width: 159px;
-    background-color:#131921;
+    background-color:#f4a261;
     color: white;
     border: none;
     display: block;
@@ -366,14 +366,15 @@ a{
 }
 
 #topdrop{
-    margin-top: 170px;
-
+    position:relative;
+    top: 40px;
+    z-index:2;
 }
 
 
 
 .navbutcart{
-    background-color: #29303a;
+    background-color: #e76f51;
     height: 40px;
     border: none;
     display: flex;

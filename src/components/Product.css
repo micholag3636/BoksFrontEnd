@@ -41,15 +41,15 @@
     text-decoration: none;
     text-align: center;
     color: black;
-    background-color: #f4f4f4;
+    background-color: #e76f51;
     padding: 8px 16px;
-    border: 1px solid #171717;
+    border: 1px solid #e76f51;
     font-size: 1rem;
 
 
 }
 
 .info_button:hover{
-    background-color: #171717;
+    background-color: #ed5f3b;
     color: #f4f4f4;
 }

@@ -1,7 +1,7 @@
 .sidedrawer{
     width: 70%;
     height: 100vh;
-    background-color: #131921;
+    background-color: #f4a261;
     position: fixed;
     top: 0;
     left: 0;
@@ -34,7 +34,7 @@
 
 
 .navbutcarts{
-    background-color: #131921;
+    background-color: #f4a261;
     height: 40px;
     border: none;
     display: flex;
@@ -58,6 +58,11 @@
 
 
 }
+#homebut{
+    margin-left: 20px;
+}
+
+
 
 .dropdown-aboutsi{
     display: none;

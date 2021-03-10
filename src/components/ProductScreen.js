@@ -65,7 +65,7 @@ Status: <span>{product.countInStock > 0 ? "In Stock" : "out of Stock" }</span>
 </p>
 <p>
 
-Qty <select valuie={qty}  onChange={(e) => setQty(e.target.value)}>
+Qty <select valuie={qty} className="box-pick" onChange={(e) => setQty(e.target.value)}>
     {[...Array(product.countInStock).keys()].map((x) => (
     <option  key={x+1}value={x+1}>{x+1} </option>
 
