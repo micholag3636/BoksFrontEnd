@@ -32,7 +32,8 @@ function ProductScreen({match, history}) {
 
     return (
         <div className="productscreen">
-            {loading ? <h1>Loading...</h1> : error ? <h2>{error}</h2> : (
+
+{loading ?  <div className="loader-box"><div class="loader"></div></div> : error ? <h2>{error}</h2>  : (
                 <>
             
             <div className="productscreen_left">
